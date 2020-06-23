@@ -1,0 +1,48 @@
+.row {
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.row > label {
+  margin-bottom: 8px;
+}
+
+.root {
+  display: flex;
+  text-align: left;
+  height: fit-content;
+  flex: 3;
+  padding: 15px;
+  margin-right: 40px;
+  border: 1px solid gray;
+  align-items: center;
+  flex-direction: column;
+}
+
+input,
+select {
+  height: 30px;
+  width: 100%;
+}
+.submit {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  background-color: maroon;
+  color: white;
+}
+
+button:disabled {
+  background-color: lightgray;
+}
